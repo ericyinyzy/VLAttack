@@ -1,0 +1,25 @@
+vqa_root: '/data/ziyi/MMA/data/VQAv2' #followed by train2014/
+#vg_root: '/export/share/datasets/vision/visual-genome/'  #followed by image/
+train_files: ['vqa_train','vqa_val']
+ann_root: 'annotation'
+
+# set pretrained as a file path or an url
+pretrained: '/data/ziyi/BLIP_model/model_vqa.pth'
+
+# size of vit model; base or large
+vit: 'base'
+batch_size_train: 1
+batch_size_test: 1
+vit_grad_ckpt: False
+vit_ckpt_layer: 0
+init_lr: 2e-5
+
+image_size: 480
+
+k_test: 128
+inference: 'rank'
+
+# optimizer
+weight_decay: 0.05
+min_lr: 0
+max_epoch: 10

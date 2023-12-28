@@ -1,0 +1,16 @@
+ann_root: annotation
+batch_size_test: 1
+batch_size_train: 1
+image_size: 480
+inference: rank
+init_lr: 2e-05
+k_test: 128
+max_epoch: 10
+min_lr: 0
+pretrained: /data/ziyi/BLIP_model/model_vqa.pth
+train_files: [vqa_train, vqa_val]
+vit: base
+vit_ckpt_layer: 0
+vit_grad_ckpt: false
+vqa_root: /data/ziyi/MMA/data/VQAv2
+weight_decay: 0.05
