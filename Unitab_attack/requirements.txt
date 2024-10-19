@@ -1,0 +1,14 @@
+matplotlib==3.6.3
+numpy==1.24.1
+pandas==1.1.5
+Pillow==9.4.0
+prettytable==3.6.0
+pycocoevalcap==1.2
+pycocotools==2.0.2
+tensorflow-hub
+tensorflow-gpu==2.10.0
+seaborn==0.12.2
+timm==0.6.12
+torch==1.8.1+cu111
+torchvision==0.9.1+cu111
+transformers==4.11.3
