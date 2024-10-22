@@ -14,7 +14,6 @@ Modify the `configs/refcoco.json` in `UniTAB_ATTACK` and `UniTAB_bert_ATTACK`
 ## Set Envirionment
 
 ```
-cd NIPS2023
 conda create -n unitab_att python=3.8
 conda activate unitab_att
 ```
