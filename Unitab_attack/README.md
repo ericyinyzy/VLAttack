@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## Evaluation
 
-* in  `UniTAB_bert_ATTACK`, run
+* in  `UniTAB_ATTACK`, run
 ```
 CUBLAS_WORKSPACE_CONFIG=:4096:8 python main.py --load_white white_box_path --load_black black_box_path --dataset_config configs/refcoco.json --ema --eval --test
 ```
