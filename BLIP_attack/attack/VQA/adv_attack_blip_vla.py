@@ -312,6 +312,7 @@ class Adv_attack:
                     else:
                         count_iter += iters
                         idx += 1
+                    self.batch['question']=text_bank[idx - 1]
                     out_v_ans = self.black_box_predict(adv_img, text_bank[idx - 1])
                     if out_v_ans != self.blip_ans_table[str(int(batch['question_id'][0]))]:
                         self.acc_list.append(1)
